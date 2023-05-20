@@ -1,0 +1,26 @@
+----Cheatsheet----
+
+--- Inicializando el repositorio
+git init (Crea repositorio local)
+git config user.name (configura nombre de usuario)
+git config user.email (configura email de usuario)
+
+--- Vinculacion a Github
+git remote add origin "link" (se vincula al repositorio)
+git remote -v (comprueba el repositorio de github)
+git remote remove origin (desvincular)
+
+--- Trabajar con el repositorio
+git clone "link" (descargar repositorio)
+
+git push origin main (Subir archivos a github)
+git pull origin main (actualiza el repositorio local)
+git push origin ""   (Se suben archivos a la rama "")
+
+git branch ""   (Crea rama nueva)
+git branch      (Muestra las ramas)
+git checkout "" (Se cambia a la rama "")
+git switch ""   (Tambien cambia de rama)
+
+git branch -d "" (Borra rama que ya se haya mergeado)
+git branch -D "" (Borrar rama)
