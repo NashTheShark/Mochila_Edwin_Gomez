@@ -1,0 +1,25 @@
+Telnet:
+
+Ventajas:
+-Simplicidad: Telnet es un protocolo muy simple de implementar y utilizar. Solo requiere una conexión de red y un cliente Telnet para acceder a un servidor remoto.
+-Amplia compatibilidad: La mayoría de los sistemas operativos y dispositivos de red admiten Telnet, lo que lo hace accesible en diversas plataformas.
+
+Desventajas:
+-Falta de cifrado: Telnet transmite datos en texto plano, lo que significa que la información enviada, es visible para alguien que pueda interceptar el tráfico de red.
+-Autenticación débil: Telnet utiliza autenticación básica basada en contraseñas, lo que lo hace vulnerable a ataques de fuerza bruta.
+
+SSH:
+
+Ventajas:
+-Seguridad: SSH proporciona un alto nivel de seguridad mediante el cifrado de los datos transmitidos, lo que protege la confidencialidad e integridad de la información.
+-Funcionalidad avanzada: SSH ofrece características más avanzadas, permite transferir archivos de manera segura mediante el protocolo SFTP (SSH File Transfer Protocol) o SCP (Secure Copy).
+
+Desventajas:
+-Configuración más compleja: En comparación con Telnet, configurar y administrar conexiones SSH puede requerir un poco más de conocimientos técnicos, personalmente tuve muchos problemas para comunicar mi computadora a la maquina virtual con este protocolo.
+-Requiere software específico: Para acceder a un servidor SSH, necesitas un cliente SSH instalado en tu dispositivo. Si bien la mayoría de los sistemas operativos modernos tienen clientes SSH integrados o disponibles para instalar, puede requerir pasos adicionales para configurarlos correctamente.
+
+Diferencias entre SSH y Telnet:
+
+-Seguridad: La diferencia más notable entre SSH y Telnet es la seguridad. Mientras que Telnet transmite datos en texto plano, SSH cifra toda la comunicación, protegiendo la información confidencial de los ataques de interceptación.
+-Autenticación: SSH ofrece opciones de autenticación más robustas, como la autenticación basada en claves públicas y privadas, mientras que Telnet se basa en contraseñas simples.
+-Funcionalidad: SSH proporciona características adicionales, como reenvío de puertos, ejecución de comandos remotos y transferencia segura de archivos (SFTP/SCP), que no están disponibles en Telnet.
